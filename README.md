@@ -23,15 +23,15 @@ Methods:
 
 Following steps are followed:
 
-    1. EDA
+   1. EDA
 
-    2. Data pre-processing: selecting input/target features, one-hot encoding
+   2. Data pre-processing: selecting input/target features, one-hot encoding
 
-    3. Feature selection: pearson correlation, p-value, LassoCV, feature importance from decision trees
+   3. Feature selection: pearson correlation, p-value, LassoCV, feature importance from decision trees
 
-    4. Classifiers:  RandomForest with vs without class weights balanced
+   4. Classifiers:  RandomForest with vs without class weights balanced
 
-    5. Auto-ML for verification
+   5. Auto-ML for verification
 
 Results: 
 1. Feature selection based on importances determined from:
