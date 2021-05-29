@@ -23,15 +23,15 @@ Methods:
 
 Following steps are followed:
 
-    1: EDA
+    1. EDA
 
-    2: Data pre-processing: selecting input/target features, one-hot encoding
+    2. Data pre-processing: selecting input/target features, one-hot encoding
 
-    3: Feature selection: pearson correlation, p-value, LassoCV, feature importance from decision trees
+    3. Feature selection: pearson correlation, p-value, LassoCV, feature importance from decision trees
 
-    4: Classifiers:  RandomForest with vs without class weights balanced
+    4. Classifiers:  RandomForest with vs without class weights balanced
 
-    5: Auto-ML for verification
+    5. Auto-ML for verification
 
 Results: 
 1. Feature selection based on importances determined from:
@@ -73,8 +73,41 @@ Conclusions:
 
 Random Forest Classifier predicts with 93% accuracy that the customer would make a recommendation for purchase. The prediction with AutoML deduced classifier is significantly less accurate.
 
-Next steps
+Next steps:
 1. Conduct hyperparameter tuning to improve on the output metrics for the chosen classifer.
 2. Add few more metrics for results: Classification report, ROC_AUC curve etc to determine the classifier's performance w.r.t each class.
 3. Build multi-class classifier based on Rating.
+
+=====Predictive Modeling Project # 2=====
+
+Objective: Building a Classifier predicting the recommendation through sentiment analysis of customer reviews
+
+Methods: 
+
+Following steps are followed:
+
+    1. EDA
+
+    2. Data pre-processing: selecting input/target features, one-hot encoding
+    
+    3. Conducting Sentiment Analysis: From reviews predicting the recommendation; TF-IDF algorithm
+    
+ Results: 
+ 
+    Accuracy = 0.8868861765540732, Precision = 0.8987058635564786, Recall = 0.9718382861091914, F1-score = 0.9338424504025898
+    Confusion Matrix is:
+    [[ 624  634]
+    [ 163 5625]]
+    
+ Conclusions:
+
+  Logistic Regression Classifier predicts with 89% accuracy that the customer would make a recommendation for purchase based on their reviews. 
+
+ Next steps:
+ 
+1. Conduct hyperparameter tuning to improve on the output metrics for the chosen classifer.
+2. Try out other classifer such as SVM, Random Forest etc. and determine the performance/accuracy and do the comparison with the above chosen classifier.
+3. Add few more metrics for results: Classification report, ROC_AUC curve etc to determine the classifier's performance w.r.t each class.
+4. Use AutoML to determine the best classifier and the resultant output metrics.
+ 
 
