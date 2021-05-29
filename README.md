@@ -36,11 +36,11 @@ Following steps are followed:
 Results: 
 1. Feature selection based on importances determined from:
 
-  A. Pearson Correlation: total # of features:36 ,# of features recommended to drop: 6, were these features dropped: yes
+    A. Pearson Correlation: total # of features:36 ,# of features recommended to drop: 6, were these features dropped: yes
   
-  B. P-value selection: total # of features: 30, # of features recommended to drop: 22, were these features dropped: yes
+    B. P-value selection: total # of features: 30, # of features recommended to drop: 22, were these features dropped: yes
   
-  C. LASSO feature importance: total # of features: 8, # of features recommended to drop:4, were these features dropped: no
+    C. LASSO feature importance: total # of features: 8, # of features recommended to drop:4, were these features dropped: no
   
 2. Random Forest Classifier without balancing class weights:
 
