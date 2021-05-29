@@ -1,4 +1,5 @@
-Kaggle dataset problem:
+# Data science project in E-commerce using transactional data for predictive analysis
+
 E-commerce : Transactional data for predictive analysis: To build predictive models on online shopping portal data streams
 
 Data sets:  https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
