@@ -15,8 +15,7 @@ The 10 feature variables are:
 9. Department Name: Categorical name of the product department name.
 10. Class Name: Categorical name of the product class name.
 
-=====
-Predictive Modeling Project # 1
+=====Predictive Modeling Project # 1=====
 
 Objective: Build a binary classifier to predict whether a product will be recommended for purchase using exploratory data analysis, feature selection based on importance,binary classification, and then comparing/verifying results with AutoML generated classifier.
 
