@@ -36,24 +36,33 @@ Following steps are followed:
 Results: 
 1. Feature selection based on importances determined from:
   A. Pearson Correlation: total # of features:36 ,# of features recommended to drop: 6, were these features dropped: yes
+  
   B. P-value selection: total # of features: 30, # of features recommended to drop: 22, were these features dropped: yes
+  
   C. LASSO feature importance: total # of features: 8, # of features recommended to drop:4, were these features dropped: no
   
 2. Random Forest Classifier without balancing class weights:
+
       Accuracy = 0.9332954868010218, Precision = 0.9870485224370668, Recall = 0.9313253012048193, F1-score = 0.9583776124690045
+      
       Confusion Matrix is:
+      
       [[1165   71]
       [ 399 5411]]
       
 3. Random Forest Classifier with class weights balanced:
+
        Accuracy = 0.9332954868010218, Mean Recall = 0.932, Mean F1 Score = 0.958
        Confusion Matrix is:
          [[1165   71]
         [ 399 5411]]
         
 4. TPOT for classification: Bernoulli Naive-Bayes Classifier with beset internal CV score: 93%
+
 Accuracy = 0.5141924496168039, Precision = 0.842467718794835, Recall = 0.5053356282271945, F1-score = 0.6317374932759547
+
 Confusion Matrix is:
+
 [[ 687  549]
  [2874 2936]]
  
