@@ -17,7 +17,7 @@ The 10 feature variables are:
 
 =====
 
-Objective#1: Build a binary classifier to predict whether a product will be recommended for purchase using exploratory data analysis, feature selection based on importance,binary classification, and then comparing/verifying results with AutoML generated classifier.
+Objective: Build a binary classifier to predict whether a product will be recommended for purchase using exploratory data analysis, feature selection based on importance,binary classification, and then comparing/verifying results with AutoML generated classifier.
 
 Methods: 
 
