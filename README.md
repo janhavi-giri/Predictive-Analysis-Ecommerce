@@ -86,11 +86,11 @@ Methods:
 
 Following steps are followed:
 
-    1. EDA
+   1. EDA
 
-    2. Data pre-processing: selecting input/target features, one-hot encoding
+   2. Data pre-processing: selecting input/target features, one-hot encoding
     
-    3. Conducting Sentiment Analysis: From reviews predicting the recommendation; TF-IDF algorithm
+   3. Conducting Sentiment Analysis: From reviews predicting the recommendation; TF-IDF algorithm
     
  Results: 
  
